@@ -19,15 +19,7 @@
             <br> <br>
         <?php
 
-                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                  $nilai_awal = $_POST["nilaiawal"];
-                }  
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                   $beda = $_POST["beda"];
-                }  
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    $jumlah_kemunculan = $_POST["suku"];
-                 }
+                
                  if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $nilai_awal = $_POST['nilaiawal'];
                     $beda = $_POST['beda'];
@@ -40,23 +32,7 @@
                        echo $nilai_awal.'  ';
                      }
                 
-                                                 
-                                                    // array ini akan digunakan untuk menampung bilangan
-                                                    
-                                                    //for ($a = 0; $a < $jumlah_kemunculan; $a+=$beda) {
-                                                       
-                                                    //    echo $a ." ";
-                                                     // }
-                                                  
-                                                    
-                                                  
-           
-                    //}
-                        
-                        //angka hasil penambahan ditambah beda
-                        //angka tersebut diulang sampai sama jumlah kemunculan
-                       
-                        
+                                              
                        
 
                     
